@@ -3,6 +3,7 @@
 I am aiming to analyze a dataset of TikToks compiled by Professor Chang and his research team pertaining to the 2024 U.S. presidential election to discern whether music with clear political alignment can impact the virality of short-form content. Overall, my goal is to determine if music can be used to resonate with voters in a time where encouraging civic engagement is key to maintaining democracy. 
 
 ## Repository Structure
+claude/:
 
 code/:
 - 00_clean.ipynb
@@ -26,6 +27,7 @@ output/:
 
 README.md
 
+(Sorry, I couldn't figure out how to get the Claude transcripts to display in markdown! They're attached as JSON files.)
 
 > **Note on data:** 
 Download the data from Dropbox here: https://www.dropbox.com/scl/fo/aq8pk2qfo4s16vd5qzjo9/AG6hRhCf8bx9QXMbvQRczj0?rlkey=kk5q19jqz9oedr3htcfqf5oy0&st=qszsb9w9&dl=0 
