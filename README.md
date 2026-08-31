@@ -8,6 +8,10 @@ code/:
 - 00_clean.ipynb
 - 01_visualize.ipynb
 
+code/data:
+- top_100_tracks.csv
+- top_with_politics.csv
+
 output/:
 - figure1.png
 - figure2.png
@@ -30,14 +34,14 @@ Download the data from Dropbox here: https://www.dropbox.com/scl/fo/aq8pk2qfo4s1
 
 Run in numerical order. Each notebook is listed below with what it needs, what it does, and what it produces.
 
-### [00_clean](code/00_script_name.py)
-- **Takes in:** 
-- **Does:** 
-- **Outputs:** 
+### [00_clean](code/00_clean.ipynb)
+- **Takes in:** master_tiktok_df.csv, tiktok_poli_pref_results.csv, data/top_100_tracks.csv
+- **Does:** Cleans and merges the above datasets to create the datasets used for analysis and visualization
+- **Outputs:** data/top_100_df.csv, data/top_100_tracks.csv, data/top_with_politics.csv
 
-### [01_visualize](code/01_script_name.py)
-- **Takes in:** top_100_tracks.csv, top_100_df.csv, top_with_politics.csv
-- **Does:** [e.g., cleans and merges job postings with firm-level data]
+### [01_visualize](code/01_visualize.ipynb)
+- **Takes in:** data/top_100_tracks.csv, data/top_100_df.csv, data/top_with_politics.csv
+- **Does:** Produces OLS regression analyses and associated visualizations
 - **Outputs:** figure1.png, figure2.png, figure3.png, figure4.png, figure5.png, figure6.png, figure7.png, figure8.png, figure9.png, figure10.png
 
 ## Requirements
